@@ -1,0 +1,25 @@
+{
+  "name": "generarQR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production & node dist/index.js",
+    "dev": "DEBUG=api:* nodemon dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "Omar Uriel Rico Cabrera",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/qrcode": "^1.3.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
+    "qrcode": "^1.4.4"
+  }
+}
